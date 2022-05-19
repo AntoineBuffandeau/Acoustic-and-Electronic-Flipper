@@ -1,2 +1,2 @@
-# Acoustic-and-Electronic-Flipper-ESILV-A2
+# Acoustic-and-Electronic-Flipper
 Electronic project coded on Arduino
