@@ -15,7 +15,7 @@ int Potentiometer = A1; //(analog signal)
 const int directionA = 12; //first direction of the motor 
 const int directionB = 13;
 int ValPo = 0;
-int Pwm;
+//int Pwm;
 
 //For the ignition of the system (remote sensor + 3LEDs) :
 //PIN 7 is utilized for the remote sensor (trigger + echo)
@@ -116,7 +116,7 @@ void HorLSolenoide(int solenPin)
 long readUltrasonicDistance(int triggerPin, int echoPin){
   pinMode(triggerPin, OUTPUT);
   digitalWrite(triggerPin,LOW);
-  delayMicroseconds(2);
+  delayMicroseconds(10);
   digitalWrite(triggerPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(triggerPin, LOW);
