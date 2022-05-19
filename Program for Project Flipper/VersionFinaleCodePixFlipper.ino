@@ -51,7 +51,7 @@ void loop() {
   digitalWrite(Orange,LOW);
   digitalWrite(Blue,LOW);
   digitalWrite(Red,HIGH);
-  cm = readUltrasonicDistance(7,7) * 0.01723; //to have interger value in centimeter
+  cm = readUltrasonicDistance(7,7) * 0.01723; //to have integer value in centimeter
   if(cm>0 && cm<15){ //verify the proximity to actionate system
     count = 0;
     while(count != 100){ //start stopwatch
