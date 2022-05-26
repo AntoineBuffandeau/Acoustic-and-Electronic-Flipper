@@ -71,6 +71,8 @@ void loop() {
       delay(100);
     }
   }
+  digitalWrite(directionA,LOW);
+  digitalWrite(directionB,LOW);
   delay(100);
   //HelpMain();
 }
